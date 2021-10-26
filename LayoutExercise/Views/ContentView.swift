@@ -28,15 +28,42 @@ struct ContentView: View {
                     .scaledToFit()
                 
                 Text("""
-            
             Huih heduiwhdi whdiahkf yefgka wd hwdjbq hjdbqiwg hwudfgqiu wufigbwuie qhwuidgqiu vxyquvduyqw uiqegduiqg fhweuifbiw ieuwgdfuiqw qiwudgqbwd iqudiuqhwd.
                      
             Hiiu shdbhjabd iqwegdbd uwdhqkwd iwefbdqbd qiwudqw dsbhqbdw qwiduhqwdb aiuwgdw wbdhwdbuqiw uqgwdw lsfhwjedq jahsdbhja qwjhdbhjq qiwdbquyw dnjkqd qhbdu qiuw.
+            
             """)
                 
                 Spacer()
                 
+                Text("My Friends")
+                    .font(.title)
+                    .fontWeight(.ultraLight)
+                
             }
+            
+            HStack{
+                
+                Text("GF dbhsk awgdhj bdashjk qwdbg sdhbhqj gwqedujq wgeyfuqv wqbwdh dyuw dbh dwd jhq sdu bsd qlwidj kqjdb ajhsvd wekudh qkwdh sdchb.")
+                
+                Image("amigas")
+                    .resizable()
+                    .scaledToFit()
+            }
+            ZStack{
+                
+                Image("poseamigas")
+                        .resizable()
+                        .scaledToFit()
+                
+                Rectangle()
+                    .fill(Color.white.opacity(0.6))
+                    .frame(maxWidth: .infinity, maxHeight: 70)
+                
+                Text("We finally did it!")
+                    .font(Font.custom("Georgia Italic", size: 30))
+            }
+      
         }
         
     }
