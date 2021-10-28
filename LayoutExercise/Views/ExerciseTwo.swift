@@ -40,16 +40,64 @@ struct ExerciseTwo: View {
               
                 VStack{
                     
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.")
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.")
                     
+                    Image("flores")
+                        .resizable()
+                        .scaledToFit()
                     
+                    Text("Hjkasd ashdj iuwdh asdbasjh wdhjia sdjawdhuwiq qhwudi hewuid qwdhujkqwd ksdqjk jhjkh.")
                     
+                    Spacer()
                     
                     
                 }
                     
                     
                 }
+            
+            Image ("cattt")
+                .resizable()
+                .scaledToFit()
+            
+            HStack{
+                
+                VStack{
+                    
+                    Text("Nevada")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    
+                    Image("flores")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Image("beauty")
+                        .resizable()
+                        .scaledToFit()
+                    
+                }
+                
+                VStack{
+                    
+                    Image("beauty")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Text("Nevada")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    
+                    Image("beauty")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.")
+                    
+                    
+                }
+            }
+            
             
         }
         
